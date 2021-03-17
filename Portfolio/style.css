@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(#221116, #6F5964, #221116);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p{
+    text-align: justify;
+    font-size: 14px;
+}
+div#container{
+    width: 70%;
+    margin: auto;
+}
+header{
+    background-color: #fff;
+    padding: 10px;
+}
+header h1{
+    display: inline-block;
+    font-family: cursive;
+}
+header h2{
+    float: right;
+    margin-top: 5px;
+}
+h3, h4{
+    text-align: left;
+    padding: 10px;
+    background-image: linear-gradient(#A9A9AE, #898794, #A9A9AE);
+    color: #fff;
+    height: 35px;
+}
+a{
+    color: black;
+}
+section{
+    margin : 25px
+}
+img#profilePic, div#profileInfo{
+    width: 460px;
+    height: 330px;
+    margin: 5px;
+}
+img#profilePic{
+    border: 4px solid gray;
+    vertical-align: top;
+}
+div#profileInfo{
+    display: inline-block;
+    background-image: linear-gradient(to right, #fff, #898794);
+}
+div#profileInfo p,  div#profileInfo a{
+    padding: 10px;
+}
+div.projects{
+    display: inline-block;
+    width: 302px;
+    height: 610px;
+    margin: 5px;
+    vertical-align: top;
+    background-image: linear-gradient(to right, #fff, #898794);
+    text-align: center;
+}
+.projects p{
+    display: inline-block;
+    height: 210px;
+    padding: 10px;
+}
+img.sampleUi{
+    width: 100% !important;
+    height: 160px;
+}
+div.techIcons{
+    height: 120px;
+    text-align: left;
+}
+div.techIcons img{
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+}
+input[type="button"] {
+    padding: 10px;
+    background-color: #407D61;
+    color: #fff;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-weight: bold;
+}
+footer{
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    height: 60px;
+}
+footer p{
+    text-align: center;
+}
+footer img{
+    width: 15px;
+    height: 15px;
+}
